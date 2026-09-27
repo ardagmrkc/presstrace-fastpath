@@ -1,0 +1,7 @@
+scenario,telemetry_hz_nominal,extra_load_ms_nominal,n_events,n_ok,n_drop,n_tx_error,n_timeout,drop_btn_queue,drop_tx_queue,n_other,r_min_ms,r_mean_ms,r_p95_ms,r_max_ms,deadline_miss,wait_mean_ms,prep_mean_ms,txq_mean_ms,uart_mean_ms,accepted,repeat,btn_queue_drop,tx_queue_drop,tx_queue_max,pool_overflow,droplog_overflow,tx_timeout,tx_start_fail,spurious_tc,tel_sent,tel_period_avg_us,btn_direct,btn_latched,btn_fallback,btn_result_lost,tel_rate_hz_measured,notes
+S0,0,0,30,30,0,0,0,0,0,0,2.794,2.796,2.798,2.798,0,0.001,0.0,0.017,2.777,30,45,0,0,0,0,0,0,0,0,0,,30,0,0,0,,
+S1,10,0,30,30,0,0,0,0,0,0,2.794,2.797,2.799,2.8,0,0.001,0.0,0.018,2.777,30,44,0,0,1,0,0,0,0,0,543,99999,30,0,0,0,10.0,
+S2,50,0,30,30,0,0,0,0,0,0,2.795,2.863,2.897,4.592,0,0.001,0.0,0.084,2.778,30,84,0,0,1,0,0,0,0,0,2965,19999,28,2,0,0,50.0,
+S3,100,0,30,30,0,0,0,0,0,0,2.796,3.208,4.602,4.865,0,0.001,0.0,0.428,2.778,30,99,0,0,1,0,0,0,0,0,5789,9999,19,11,0,0,100.01,
+S4,100,2,30,30,0,0,0,0,0,0,2.796,3.247,5.379,5.488,0,0.001,0.0,0.468,2.778,30,65,0,0,2,0,0,0,0,0,5738,9999,23,7,0,0,100.01,
+S5,100,5,30,30,0,0,0,0,0,0,2.796,3.326,5.318,5.514,0,0.001,0.0,0.547,2.778,30,94,0,0,2,0,0,0,0,0,8014,9999,19,11,0,0,100.01,

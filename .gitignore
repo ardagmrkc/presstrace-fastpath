@@ -1,0 +1,24 @@
+# IAR EWARM build artifacts
+**/EWARM/Debug/
+**/EWARM/Release/
+**/*.dep
+**/*.pbd
+**/*.pbi
+**/*.pbw
+**/*.dbgdt
+**/settings/
+*.wsdt
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.swp
+
+# Python (analysis)
+__pycache__/
+*.pyc
+.venv/
+
+# Host testi ciktilari
+test_uart_arbiter
+*.exe
